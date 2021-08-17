@@ -19,6 +19,7 @@ import isEqual from "fast-deep-equal";
 /**
  * @ignore
  */
+declare var google: any;
 declare global {
   interface Window {
     __googleMapsCallback: (e: Event) => void;
